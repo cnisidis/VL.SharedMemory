@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VL.SharedMemory</id>
+    <version>$version$</version>
+    <title>VL.SharedMemory</title>
+    <authors>Constantine Nisidis, vvvv</authors>
+    <owners>vvvv</owners>
+    <projectUrl>https://github.com/vvvv/VL.Devices.Kinect2</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A VL wrapper for Windows Shared Memory Pipeline</summary>
+    <description>Shared Memory for VL</description>
+    <copyright>Copyright © 2020 by vvvv group. All rights reserved.</copyright>
+    <tags>VL, Shared Memory, mapping, memory, files, bridge, pipeline</tags>
+	<license type="expression">LGPL-3.0-only</license>
+    <dependencies>
+      <!--<dependency id="Microsoft.Kinect" version="[2.0.1410.19000]" />-->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\lib\net472\VL.Devices.Kinect2.dll" target="lib\net472\" exclude="" />
+    <file src="..\lib\net472\Microsoft.Kinect.Face.dll" target="lib\net472\" exclude="" />
+    <file src="..\lib\net472\NuiDatabase\**" target="lib\net472\NuiDatabase\" exclude="" />
+    <file src="..\*.vl" target="" exclude="" />
+    <!--<file src="..\help\**" target="help\" exclude="" />-->
+  </files>
+</package>
