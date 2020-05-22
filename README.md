@@ -1,2 +1,5 @@
 # VL.SharedMemory
-Shared Memory implementation for VL / vvvv exchange data
+
+Shared Memory implementation for VL
+
+
