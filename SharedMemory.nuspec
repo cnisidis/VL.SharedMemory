@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>VL.SharedMemory</id>
+    <version>0.0.1</version>
+    <summary>Shared Memory Pipeline for vvvv(gamma) VL</summary>
+	<descritpion>Shared Memory Pipeline for vvvv(gamma) VL</descritpion>
+	<authors>Constantine Nisidis</authors>
+    <owners>vvvv</owners>
+    <projectUrl>https://github.com/cnisidis/VL.SharedMemory.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>VL</tags>
+    <dependencies>
+      <!--<dependency id="SharedMemory" version="1.0.0" />-->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\*.vl" target="" exclude="" />
+    <file src=".\**\*.vl" target="" exclude="" />
+  </files>
+</package>
