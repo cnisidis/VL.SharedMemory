@@ -6,12 +6,14 @@
     <summary>Shared Memory Pipeline for vvvv(gamma) VL</summary>
 	<descritpion>Shared Memory Pipeline for vvvv(gamma) VL</descritpion>
 	<authors>Constantine Nisidis</authors>
-    <owners>vvvv</owners>
+    <owners>Constantine Nisidis, vvvv</owners>
     <projectUrl>https://github.com/cnisidis/VL.SharedMemory.git</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>VL</tags>
     <dependencies>
-      <!--<dependency id="SharedMemory" version="1.0.0" />-->
+      <dependency id="System.IO" version="4.3.0" />
+      <dependency id="System.Memory" version="4.5.3" />
+      <dependency id="System.Runtime.InteropServices" version="4.3.0" />
     </dependencies>
   </metadata>
   <files>
