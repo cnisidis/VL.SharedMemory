@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="DTc9EQaJlHlLsbeBz1ipC9" LanguageVersion="2020.1.2.135" Version="0.128">
-  <NugetDependency Id="LG6A7ygjAL5L5tjkk3Wfvm" Location="VL.CoreLib" Version="2020.1.2" />
+<Document xmlns:p="property" Id="DTc9EQaJlHlLsbeBz1ipC9" LanguageVersion="2020.1.7.184" Version="0.128">
+  <NugetDependency Id="LG6A7ygjAL5L5tjkk3Wfvm" Location="VL.CoreLib" Version="2020.1.7" />
   <Patch Id="Fqk7v6biIGMP80prfyU2vf">
-    <Canvas Id="SrUQO3gcFnBN503pwyq8LM" DefaultCategory="Main" CanvasType="FullCategory">
+    <Canvas Id="SrUQO3gcFnBN503pwyq8LM" DefaultCategory="SharedMemory" CanvasType="FullCategory">
       <!--
 
     ************************ ReadMemory ************************
@@ -584,7 +584,7 @@
             <Pin Id="MxVuOIqvMaqPBpqiDesMp8" Name="Length" Kind="OutputPin" />
           </Node>
           <Node Bounds="391,-217,176,19" Id="UtEBGr0kZpuMRdeCc4ecwH">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="SharedMemory.vl">
+            <p:NodeReference LastCategoryFullName="SharedMemory" LastSymbolSource="SharedMemory.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="WriteMemory" />
             </p:NodeReference>
@@ -621,7 +621,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Node Bounds="689,-426" Id="BKcmG4FWaXsNhmaPIOQsLj">
-            <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="SharedMemory.vl">
+            <p:NodeReference LastCategoryFullName="SharedMemory" LastSymbolSource="SharedMemory.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="ReadMemory" />
             </p:NodeReference>
@@ -705,11 +705,11 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UFGubBvEF41ORyNtR93gX9" Location="VL.Skia" Version="2020.1.2" />
+  <NugetDependency Id="UFGubBvEF41ORyNtR93gX9" Location="VL.Skia" Version="2020.1.7" />
   <NugetDependency Id="GoDcZ94ZPXkL83h3zROlnr" Location="System.IO" IsForward="true" Version="4.3.0" />
   <PlatformDependency Id="BMNKuuT3ebTNNMFW4Z9Vvp" Location="System.IO.MemoryMappedFiles" IsForward="true" />
   <PlatformDependency Id="NRqYod9R60hLIzSJKPbmPs" Location="System.IO.Pipes" />
   <PlatformDependency Id="DccD9xOtPUhMmJwAmIeb81" Location="System.Runtime.InteropServices" />
   <NugetDependency Id="HrxX7hAPgpuOpMueEoMwYf" Location="System.Memory" IsForward="true" Version="4.5.3" />
-  <NugetDependency Id="Dy6uOJTzs8XNUL0jGKVUrn" Location="System.Runtime.InteropServices" Version="4.3.0" />
+  <NugetDependency Id="Dy6uOJTzs8XNUL0jGKVUrn" Location="System.Runtime.InteropServices" IsForward="true" Version="4.3.0" />
 </Document>
