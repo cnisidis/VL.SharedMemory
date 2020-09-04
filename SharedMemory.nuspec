@@ -4,7 +4,7 @@
     <id>VL.SharedMemory</id>
     <version>0.0.1</version>
     <summary>Shared Memory Pipeline for vvvv(gamma) VL</summary>
-	<descritpion>Shared Memory Pipeline for vvvv(gamma) VL</descritpion>
+	<description>Shared Memory Pipeline for vvvv(gamma) VL</description>
 	<authors>Constantine Nisidis</authors>
     <owners>Constantine Nisidis, vvvv</owners>
     <projectUrl>https://github.com/cnisidis/VL.SharedMemory.git</projectUrl>
