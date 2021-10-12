@@ -20,5 +20,5 @@ jobs:
     - name: Publish VL Nuget
       uses: vvvv/PublishVLNuget@1.0.41
       with:
-        nuspec: yyy\YourPlugin.nuspec
+        nuspec: deployment\VL.SharedMemory.nuspec
         nuget-key: ${{ secrets.YOUR_NUGET_KEY }}
