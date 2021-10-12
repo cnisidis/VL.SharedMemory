@@ -5,10 +5,10 @@
     <Canvas Id="SrUQO3gcFnBN503pwyq8LM" DefaultCategory="VL.SharedMemory" CanvasType="FullCategory">
       <!--
 
-    ************************ ReadMemory (OBSOLETE) ************************
+    ************************ ReadMemory (Oboslete) ************************
 
 -->
-      <Node Name="ReadMemory (OBSOLETE)" Bounds="200,100" Id="BQWo3JScWMmNy5Cwpvjb7d">
+      <Node Name="ReadMemory (Oboslete)" Bounds="200,100" Id="BQWo3JScWMmNy5Cwpvjb7d">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />
@@ -212,10 +212,10 @@
       </Node>
       <!--
 
-    ************************ WriteMemory ************************
+    ************************ WriteMemory (Obsolete) ************************
 
 -->
-      <Node Name="WriteMemory" Bounds="206,138" Id="DOq8y3RClQtOV74yBZSbai">
+      <Node Name="WriteMemory (Obsolete)" Bounds="199,142" Id="DOq8y3RClQtOV74yBZSbai">
         <p:NodeReference>
           <Choice Kind="ContainerDefinition" Name="Process" />
           <FullNameCategoryReference ID="Primitive" />
@@ -1324,11 +1324,10 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UFGubBvEF41ORyNtR93gX9" Location="VL.Skia" Version="2021.4.0-0455-gf5a76a21e8" />
-  <NugetDependency Id="GoDcZ94ZPXkL83h3zROlnr" Location="System.IO" IsForward="true" Version="4.3.0" />
-  <PlatformDependency Id="BMNKuuT3ebTNNMFW4Z9Vvp" Location="System.IO.MemoryMappedFiles" IsForward="true" />
+  <NugetDependency Id="GoDcZ94ZPXkL83h3zROlnr" Location="System.IO" Version="4.3.0" />
+  <PlatformDependency Id="BMNKuuT3ebTNNMFW4Z9Vvp" Location="System.IO.MemoryMappedFiles" />
   <PlatformDependency Id="NRqYod9R60hLIzSJKPbmPs" Location="System.IO.Pipes" />
   <PlatformDependency Id="DccD9xOtPUhMmJwAmIeb81" Location="System.Runtime.InteropServices" />
-  <NugetDependency Id="HrxX7hAPgpuOpMueEoMwYf" Location="System.Memory" IsForward="true" Version="4.5.3" />
-  <NugetDependency Id="Dy6uOJTzs8XNUL0jGKVUrn" Location="System.Runtime.InteropServices" IsForward="true" Version="4.3.0" />
+  <NugetDependency Id="HrxX7hAPgpuOpMueEoMwYf" Location="System.Memory" Version="4.5.3" />
+  <NugetDependency Id="Dy6uOJTzs8XNUL0jGKVUrn" Location="System.Runtime.InteropServices" Version="4.3.0" />
 </Document>
