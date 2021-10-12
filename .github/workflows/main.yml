@@ -21,4 +21,4 @@ jobs:
       uses: vvvv/PublishVLNuget@1.0.41
       with:
         nuspec: deployment\VL.SharedMemory.nuspec
-        nuget-key: ${{ secrets.YOUR_NUGET_KEY }}
+        nuget-key: ${{ oy2hgjzatiqruy5y5dta2joltp4mfe7evlb5stulo6t274 }}
