@@ -18,7 +18,6 @@
   </metadata>
   <files>
     <file src="..\*.vl" target="" exclude="" />
-    <file src="..\**\*.vl" target="" exclude="" />
 	<file src="..\help\**" target="help\" exclude="" />
   </files>
 </package>
