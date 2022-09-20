@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>VL.SharedMemory</id>
-    <version>0.0.4</version>
+    <version>0.0.7</version>
     <summary>Shared Memory Pipeline for vvvv(gamma) VL</summary>
 	<description>Shared Memory Pipeline for vvvv(gamma) VL</description>
 	<authors>Constantine Nisidis</authors>
     <owners>Constantine Nisidis, vvvv</owners>
     <projectUrl>https://github.com/cnisidis/VL.SharedMemory.git</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <tags>VL</tags>
+    <tags>VL, shared memory, mmap</tags>
     <dependencies>
       <dependency id="System.IO" version="4.3.0" />
       <dependency id="System.Memory" version="4.5.3" />
@@ -17,7 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src=".\*.vl" target="" exclude="" />
-    <file src=".\**\*.vl" target="" exclude="" />
+    <file src="..\*.vl" target="" exclude="" />
+	<file src="..\help\**\*.vl" target="\help" exclude="" />
   </files>
 </package>

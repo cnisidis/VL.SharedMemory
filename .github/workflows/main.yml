@@ -1,0 +1,24 @@
+# on push on master
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - README.md
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Git Checkout
+      uses: actions/checkout@master
+    
+
+    - name: Setup Nuget.exe
+      uses: nuget/setup-nuget@v1
+      
+    - name: Publish VL Nuget
+      uses: vvvv/PublishVLNuget@1.0.41
+      with:
+        nuspec: deployment\VL.SharedMemory.nuspec
+        nuget-key: oy2hgjzatiqruy5y5dta2joltp4mfe7evlb5stulo6t274
