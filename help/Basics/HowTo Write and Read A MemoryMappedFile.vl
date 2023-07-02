@@ -63,7 +63,7 @@
             <Pin Id="OKayezYwgfqORe1Dg1j9en" Name="Length" Kind="OutputPin" />
           </Node>
           <Pad Id="FfMs7waYMawOQLPzqFK1PT" Comment="Error Message" Bounds="1205,256,210,49" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="PBdmAKyVozZNwCnHhRf2Cs" Comment="Read" Bounds="1027,90,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="PBdmAKyVozZNwCnHhRf2Cs" Comment="Read" Bounds="1027,90,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="Boolean" />
               <FullNameCategoryReference ID="Primitive" />
