@@ -1,3 +1,5 @@
+name: push_nuget
+
 # on push on master
 on:
   push:
