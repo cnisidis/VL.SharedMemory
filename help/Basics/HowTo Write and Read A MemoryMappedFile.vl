@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="BESoCfWxI0eOFfyF449XRd" LanguageVersion="2021.4.11.1126" Version="0.128">
-  <NugetDependency Id="QxrdaQ9OQr2MxZ8SfThOf7" Location="VL.CoreLib" Version="2021.4.11-1126-g477abddbf2" />
+<Document xmlns:p="property" Id="BESoCfWxI0eOFfyF449XRd" LanguageVersion="2022.5.0-0401-8c8342a1de" Version="0.128">
+  <NugetDependency Id="QxrdaQ9OQr2MxZ8SfThOf7" Location="VL.CoreLib" Version="2022.5.0-0401-g8c8342a1de" />
   <Patch Id="Dbb6t15tm5eMPgnwv5RYc2">
     <Canvas Id="JjDBXBRX0tUNz05SkWjEAe" DefaultCategory="Main" CanvasType="FullCategory" />
     <!--
@@ -16,7 +16,7 @@
       <Patch Id="HsvxonOMVcGLZDKZCPQzkl">
         <Canvas Id="K3z8Fah5QDKL2RQDY6Z7VR" CanvasType="Group">
           <Node Bounds="414,315,126,19" Id="E4el6lZ7Fx7OIpOgAKk9iS">
-            <p:NodeReference>
+            <p:NodeReference LastCategoryFullName="VL.SharedMemory" LastSymbolSource="VL.SharedMemory.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Write (SharedMemory)" />
               <CategoryReference Kind="Category" Name="SharedMemory" NeedsToBeDirectParent="true" />
@@ -81,7 +81,7 @@
           <Pad Id="SIFTHQ7iCvDPrIYqmMZbm0" Comment="Error Message" Bounds="503,441,180,55" ShowValueBox="true" isIOBox="true" />
           <Pad Id="GEe8N0B5pv6P2V3e9vOV6B" Comment="" Bounds="1140,327,35,95" ShowValueBox="true" isIOBox="true" />
           <Node Bounds="495,109,79,19" Id="HHw29KHr8mJLqUD7WImpqy">
-            <p:NodeReference LastCategoryFullName="System.BitsAndBytes" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="System.BitsAndBytes" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="GetInt32Bytes" />
             </p:NodeReference>
@@ -89,7 +89,7 @@
             <Pin Id="Mml0At9EU5YOzPpYx3nHtG" Name="Result" Kind="OutputPin" />
           </Node>
           <Node Bounds="1048,329,52,19" Id="CxbYTMffdjpOhExYBQo6UX">
-            <p:NodeReference LastCategoryFullName="System.BitsAndBytes" LastSymbolSource="CoreLibBasics.vl">
+            <p:NodeReference LastCategoryFullName="System.BitsAndBytes" LastSymbolSource="VL.CoreLib.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="ToInt32" />
               <FullNameCategoryReference ID="System.BitsAndBytes" />
@@ -125,6 +125,6 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UDpFxN6k7wjNLJ81ZD6tDk" Location="VL.CoreLib" Version="2021.4.11-1126-g477abddbf2" />
+  <NugetDependency Id="UDpFxN6k7wjNLJ81ZD6tDk" Location="VL.CoreLib" Version="2022.5.0-0401-g8c8342a1de" />
   <NugetDependency Id="UNa0zx94I3oQRI6wVwmVRU" Location="VL.SharedMemory" Version="0.0.0.0" />
 </Document>
