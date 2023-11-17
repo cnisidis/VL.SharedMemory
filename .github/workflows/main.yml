@@ -13,12 +13,14 @@ jobs:
     - name: Git Checkout
       uses: actions/checkout@master
     
+    - name: Setup MSBuild.exe
+      uses: microsoft/setup-msbuild@v1.0.0
 
     - name: Setup Nuget.exe
       uses: nuget/setup-nuget@v1
       
     - name: Publish VL Nuget
-      uses: vvvv/PublishVLNuget@1.0.41
+      uses: vvvv/PublishVLNuget@1.0.42
       with:
         nuspec: deployment\VL.SharedMemory.nuspec
-        nuget-key: oy2hmdoi4styhg5gp5xqslw254i4g5ruzk3vocnamwvskq
+        nuget-key: oy2dgbjs3jr646zyi23q3yq4h5upp3felbkblbhmtjmquq
